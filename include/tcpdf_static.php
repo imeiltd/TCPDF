@@ -2128,6 +2128,12 @@ class TCPDF_STATIC {
      * @var array<string,float[]>
 	 */
 	public static $page_formats = array(
+        'LABEL_99012'                     => array( 252,  102.24), // (  89 x 36 ) mm  = ( 3.5 x 1.42) in
+        'LABEL_99012_DYMO'                     => array( 272.126,  110.551), // (  96 x 39 ) mm  = ( 3.5 x 1.42) in
+        'LABEL_4X2_INCH'                     => array( 289.132,  144.566), // (  102 x 51 ) mm  = ( 4 x 2) in
+        //'LABEL_11354'                     => array( 161.28,  90.72), // (  57 x 32 ) mm  = ( 2.24 x 1.26) in
+        //'LABEL_11354'                     => array( 127.44,  67.68), // (  45 x 24 ) mm  = ( 1.77 x 0.94) in
+        'LABEL_11354'                     => array( 115.92,  67.68), // (  41 x 24 ) mm  = ( 1.61 x 0.94) in
 		// ISO 216 A Series + 2 SIS 014711 extensions
 		'A0'                     => array( 2383.937,  3370.394), // = (  841 x 1189 ) mm  = ( 33.11 x 46.81 ) in
 		'A1'                     => array( 1683.780,  2383.937), // = (  594 x 841  ) mm  = ( 23.39 x 33.11 ) in
